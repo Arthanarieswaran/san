@@ -88,18 +88,29 @@ input[type="search"]::placeholder {
           <div class="container-fluid" >
             <div style="display: flex;">
               <!-- nav logo  -->
-              <div class="navbar-brand" style="display:flex;">
+              <div class="navbar-brand ps-lg-5" style="display:flex;">
                 <img src="nature.png" alt="" style="height: 8vh; width: 8vh;">
                 <h2 style="margin-left: 2vh; margin-top: 1vh;">Cartzilla</h2>
               </div> 
               
               <!-- search -->
               
-                <div class="form d-flex flex-row align-items-center pe-3">
-                  <input id="search-focus" type="text" class="p-2" placeholder="Search....." />
-                  <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="ps-5">
+                  <div class="form d-flex flex-row align-items-center pe-3">
+                    <input id="search-focus" type="text" class="p-2" placeholder="Search....." style="width: 75vh;"/>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
                 </div>
-              
+                
+                <div class="badge badge-secondary ps-5 pt-3" style="margin-left: 60vh;">
+                  <i class="fa-solid fa-cart-shopping btn btn-secondary position-relative rounded-circle" style="font-size: 18px;">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      99
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </i>
+                </div>
+
             </div>
               
           </div>
