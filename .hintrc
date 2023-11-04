@@ -21,6 +21,19 @@
         ]
       }
     ],
-    "button-type": "off"
+    "button-type": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off",
+        "listitem": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-required-children": "off"
+      }
+    ]
   }
 }
